@@ -1,0 +1,7 @@
+.container {
+  height: 76px;
+  position: relative;
+  color: $white;
+  background-color: $black;
+  @extend %flex-center;
+}

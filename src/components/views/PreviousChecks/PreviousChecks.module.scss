@@ -1,0 +1,18 @@
+.container {
+  @extend %flex-center;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 25px auto;
+
+  &__item {
+    margin-top: 15px;
+
+    &_valid {
+      color: $green;
+    }
+
+    &_invalid {
+      color: $red;
+    }
+  }
+}
